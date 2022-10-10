@@ -31,7 +31,7 @@ const Navbar = () => {
           <button className="border-none bg-transparent text-black mr-4">
             Log In
           </button>
-          <button className="px-8 py-3 hover:bg-blue-700 hover:text-white">Sign Up</button>
+          <button className="px-8 py-3 hover:bg-blue-600 hover:text-white">Sign Up</button>
         </div>
         <div className="md:hidden mr-4" onClick={handleClick}>
           {!nav ? <Bars3Icon className="w-5" /> : <XMarkIcon className="w-5" />}
