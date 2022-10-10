@@ -9,6 +9,6 @@
 
   button {
     @apply text-white  bg-blue-500 border-none
-        hover:bg-transparent hover:bg-blue-600 hover:text-white rounded-md;
+        hover:bg-transparent hover:text-black rounded-md;
   }
 }
